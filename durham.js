@@ -21,19 +21,19 @@ function Footnoter() {
     };
 }
 
-// Constructor for the EPCC theme
+// Constructor for the Durham theme
 // Can override the header and footer macros to customise text
-function EpccTheme() {
+function DurhamTheme() {
     this.base = (str => str.substring(0, str.lastIndexOf("/")))(document.currentScript.src);
     this.fn = new Footnoter();
     // Capture this for use in closures
     var self = this;
     this.header = function() {
-	return self.subst("<img src=\"$BASEURL/ed-logo-white.png\" />");
+	return self.subst("<img src=\"$BASEURL/arc-logo.png\" />");
     };
     this.footer_text = "";
     this.footer = function() {
-	return self.subst("<img src=\"$BASEURL/epcc-white.png\" /><p>"+ self.footer_text + "</p>");
+	return self.subst("<img src=\"$BASEURL/durham-violet.png\" /><p>"+ self.footer_text + "</p>");
     }
     macros = {
 	scale_img: function (percentage) {
@@ -51,7 +51,7 @@ function EpccTheme() {
     Theme.call(this, this.base, '$BASEURL/style.css', macros, '$BASEURL/templates.md');
 }
 
-EpccTheme.prototype = Object.create(Theme.prototype);
-EpccTheme.prototype.constructor = EpccTheme;
+DurhamTheme.prototype = Object.create(Theme.prototype);
+DurhamTheme.prototype.constructor = DurhamTheme;
 
-epcc = new EpccTheme();
+durham = new DurhamTheme();

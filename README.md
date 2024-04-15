@@ -1,7 +1,7 @@
-# EPCC Remark theme
+# Durham Remark theme
 
 A [remark](https://remarkjs.com/) theme for
-[EPCC](http://www.epcc.ed.ac.uk).
+[Durham ARC](https://www.dur.ac.uk/arc/).
 
 Also includes a more general theme adding mechanism.
 
@@ -9,14 +9,14 @@ First include the remark JavaScript into your HTML as well as this
 
 ```HTML
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script src="https://EPCCed.github.io/remark_theme/latest.js"></script>
+<script src="https://durhamarc-training.github.io/remark_theme/latest.js"></script>
 ```
 
 Then before you create the remark slideshow, install the theme, and
 then create the slides as normal.
 
 ```
-epcc.install();
+durham.install();
 var slideshow = remark.create({sourceUrl: 'README.md'});
 ```
 
