@@ -24,7 +24,7 @@ var slideshow = remark.create({sourceUrl: 'README.md'});
 
 ## UoE corporate color scheme
 
-- [ ] Adapt colours from UoE to DU
+- [ ] TODO: Adapt colours from UoE to DU
 
 ### Core colours
 
