@@ -24,6 +24,8 @@ var slideshow = remark.create({sourceUrl: 'README.md'});
 
 ## UoE corporate color scheme
 
+- [ ] Adapt colours from UoE to DU
+
 ### Core colours
 
 - Pantone 282 - UoE blue - rgb(0,50,95)
