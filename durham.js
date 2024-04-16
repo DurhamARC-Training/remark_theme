@@ -29,7 +29,7 @@ function DurhamTheme() {
     // Capture this for use in closures
     var self = this;
     this.header = function() {
-	return self.subst("<img src=\"$BASEURL/__sitelogo__White Transparent DU Crest.png\" />");
+	return self.subst("<img src=\"$BASEURL/durham-crest.png\" />");
     };
     this.footer_text = "";
     this.footer = function() {
