@@ -22,14 +22,25 @@ var slideshow = remark.create({sourceUrl: 'README.md'});
 
 
 
-## DU corporate color scheme
-
-- [ ] TODO: Adapt colours from DU
+## DU corporate colour scheme
 
 ### Core colours
 
-- DU violet - rgb(104,36,109)
+- Pantone 255 - DU Purple - rgb(104,36,109)
+- Pantone 7548 - DU Yellow - rgb(255,213,58)
+- Pantone Pro Blue - DU Cyan - rgb(0,174,239)
+- Pantone 187 - DU Red - rgb(190,30,45)
+- Pantone 10108 - DU Gold - rgb(175,169,97)
 
-### Secondary colours (muted)
+### Secondary colours
 
-### Secondary colours (bright)
+- Pantone 5155 - DU Heather - rgb(203,168,177)
+- Pantone 615 - DU Stone - rgb(218,205,162)
+- Pantone 543 - DU Sky - rgb(165,200,208)
+- Pantone 435 - DU Cedar - rgb(182,170,167)
+- Pantone 429 - DU Concrete - rgb(179,189,177)
+
+### Type colours
+
+- Pantone 7546 - DU Ink - rgb(0,42,65)
+- Pantone Black - DU Black - rgb(51,49,50)
