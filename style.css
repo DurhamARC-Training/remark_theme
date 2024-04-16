@@ -11,7 +11,7 @@ h1, h2, h3 {
     font-family: 'Ubuntu Mono';
 }
 
-/* Header and slide no. need to be white to be visible over UoE blue
+/* Header and slide no. need to be white to be visible over DU violet
    background. */
 h1 {
     color: white;
@@ -24,10 +24,10 @@ h1 {
     opacity: 1.0;
 }
 
-/* Fix the header and footer bars in position and colour them UoE
-   blue*/
+/* Fix the header and footer bars in position and colour them DU
+   violet*/
 div.header {
-    background-color: rgb(0,50,95);
+    background-color: rgb(104,36,109);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -41,7 +41,7 @@ div.footer {
     left: 0px;
     height: 40px;
     width: 100%;
-    background-color: rgb(0,50,95);
+    background-color: rgb(104,36,109);
     color: white;
     text-align: left;
 }
@@ -68,9 +68,9 @@ div.footer p {
     font-size: smaller;
 }
 
-/* Make title box UoE blue */
+/* Make title box DU violet */
 div.titlebox {
-    background-color: rgb(0,50,95);
+    background-color: rgb(104,36,109);
     color: white;
 }
 
