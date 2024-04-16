@@ -92,12 +92,6 @@ div.footnotes {
 }
 
 /* Enable centering images regardless of their size */
-.image-container {
-    display: flex;
-    justify-content: center;
-    position: relative; /* Position relative to enable absolute positioning of the child (img) */
-    height: 80vh; /* or any other height depending on your layout */
-}
 .image-container img {
     position: absolute;
     left: 50%; /* Moves the left edge of the image to the center of the container */
