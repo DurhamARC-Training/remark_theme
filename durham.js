@@ -29,7 +29,7 @@ function DurhamTheme() {
     // Capture this for use in closures
     var self = this;
     this.header = function() {
-	return self.subst("<img src=\"$BASEURL/durham-small-violet.png\" />");
+	return self.subst("<img src=\"$BASEURL/durham-small-violet.png\" style=\"width: 60%\"/>");
     };
     this.footer_text = "";
     this.footer = function() {
