@@ -29,16 +29,20 @@ function DurhamTheme() {
     // Capture this for use in closures
     var self = this;
     this.header = function() {
-	return self.subst("<img src=\"$BASEURL/arc-logo.png\" />");
+	return self.subst("<img src=\"$BASEURL/durham-violet.png\" />");
     };
     this.footer_text = "";
     this.footer = function() {
-	return self.subst("<img src=\"$BASEURL/durham-violet.png\" /><p>"+ self.footer_text + "</p>");
+	return self.subst("<img src=\"$BASEURL/arc-logo.png\" /><p>"+ self.footer_text + "</p>");
     }
     macros = {
-	scale_img: function (percentage) {
+	scale_width_img: function (percentage) {
 	    var url = this;
 	    return '<img src="' + url + '" style="width: ' + percentage + '" />';
+	},
+	scale_height_img: function (percentage) {
+	    var url = this;
+	    return '<img src="' + url + '" style="height: ' + percentage + '" />';
 	},
 	fn_start: this.fn.clear,
 	fn_clear: this.fn.clear,
