@@ -97,8 +97,7 @@ div.footnotes {
     justify-content: center;
     overflow: hidden; /* Ensures that any part of the image that overflows the container does not show */
     position: relative; /* Position relative to enable absolute positioning of the child (img) */
-    width: 100vw;
-    max-height: 100vh; /* Ensures that the container does not exceed the viewport height */
+    height: 100vh; /* or any other height depending on your layout */
 }
 .image-container img {
     position: absolute;
