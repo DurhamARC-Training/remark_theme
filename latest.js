@@ -146,7 +146,8 @@ function DurhamTheme() {
 	},
 	scale_height_img: function (percentage) {
 	    var url = this;
-	    return '<div class="image-container"' + '" style="display: flex; justify-content: center; position: relative; height: ' + percentage + '><img src="' + url + '" /></div>';
+	    return '<img src="' + url + '" style="height: ' + percentage + ', position: absolute; left: 50%; transform: translateX(-50%); max-width: none" />';
+//	    return '<div class="image-container"' + '" style="display: flex; justify-content: center; position: relative; height: ' + percentage + '><img src="' + url + '" /></div>';
 	},
 	fn_start: this.fn.clear,
 	fn_clear: this.fn.clear,

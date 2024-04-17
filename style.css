@@ -91,14 +91,6 @@ div.footnotes {
     box-sizing: border-box;
 }
 
-/* Enable centering images regardless of their size */
-.image-container img {
-    position: absolute;
-    left: 50%; /* Moves the left edge of the image to the center of the container */
-    transform: translateX(-50%); /* Shifts the image back to the left by half its own width */
-    max-width: none; /* Overrides any max-width that might restrict the image size */
-}
-
 @page {
     size: 908px 681px;
     margin: 0;
