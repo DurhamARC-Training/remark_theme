@@ -89,6 +89,7 @@ div.footnotes {
     width: 50%;
     padding: 0 1%;
     box-sizing: border-box;
+    font-size: 0.6em;
 }
 
 @page {
