@@ -133,7 +133,7 @@ function DurhamTheme() {
     // Capture this for use in closures
     var self = this;
     this.header = function() {
-	return self.subst("<img src=\"$BASEURL/durham-crest.png\" />");
+	return self.subst("<img src=\"$BASEURL/durham-crest.png\">");
     };
     this.footer_text = "";
     this.footer = function() {
@@ -142,11 +142,11 @@ function DurhamTheme() {
     macros = {
 	scale_width_img: function (percentage) {
 	    var url = this;
-	    return '<img src="' + url + '" style="width: ' + percentage + '" />';
+	    return '<img src="' + url + '" style="width: ' + percentage + '">';
 	},
 	scale_height_img: function (percentage) {
 	    var url = this;
-	    return '<img src="' + url + '" style="height: ' + percentage + ', position: absolute; left: 50%; transform: translateX(-50%); max-width: none" />';
+	    return '<img src="' + url + '" style="height: ' + percentage + ' ">';
 //	    return '<div class="image-container"' + '" style="display: flex; justify-content: center; position: relative; height: ' + percentage + '><img src="' + url + '" /></div>';
 	},
 	fn_start: this.fn.clear,
