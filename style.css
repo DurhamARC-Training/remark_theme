@@ -84,12 +84,12 @@ div.footnotes {
 /* Enable two column layout */
 .columns {
     display: flex;
+    font-size: 0.6em;
 }
 .col {
     width: 50%;
     padding: 0 1%;
     box-sizing: border-box;
-    font-size: 0.6em;
 }
 
 @page {
